@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenDot</title>
+
+  <!-- Link Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar-box">
+        <a href="" class="site-logo">
+          <img src="./img/logo.svg" alt="GreenDot">
+        </a>
+        <div class="nav-menus-box">
+          <div class="nav-menus">
+            <a href="" class="nav-link active">Home</a>
+            <a href="" class="nav-link">Features</a>
+            <a href="" class="nav-link">How It Works</a>
+            <a href="" class="nav-link">Contact Us</a>
+          </div>
+          <button class="btn btn-primary nav-btn">
+            <span>Login</span>
+            <img src="./img/sign-in-alt.svg" alt="">
+          </button>
+          <a id="menu-icon">
+            <img src="./img/bars.svg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <!-- Hero Section -->
+  <section id="hero-section">
+    <div class="container">
+      <div class="hs-box">
+        <div class="hs-content">
+          <h1>A simple and smart tool that will help you to grow your buisness</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius laborum quos corrupti praesentium fugiat.
+          </p>
+          <button class="btn btn-primary btn-lg">Learn More</button>
+        </div>
+        <div class="hs-banner">
+          <img src="./img/hero.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section -->
+
+  <!-- Features Section -->
+  <section id="features">
+    <div class="container">
+      <div class="section-heading">
+        <h1>Features</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius laborum quos corrupti praesentium fugiat.</p>
+      </div>
+      <div class="features-box">
+        <div class="single-feature">
+          <img src="./img/dashboard.svg" alt="">
+          <h2>Dashboard</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius laborum quos corrupti praesentium fugiat.</p>
+        </div>
+        <div class="single-feature">
+          <img src="./img/reports.svg" alt="">
+          <h2>Reports</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius laborum quos corrupti praesentium fugiat.</p>
+        </div>
+        <div class="single-feature">
+          <img src="./img/analytics.svg" alt="">
+          <h2>Analytics</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius laborum quos corrupti praesentium fugiat.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Features Section -->
+
+  <!-- How It works -->
+  <section id="hiw">
+    <div class="container">
+      <div class="section-heading">
+        <h1>How It Works</h1>
+      </div>
+      <div class="hiw-box">
+        <div class="hiw-content">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem necessitatibus cumque dolor dolores
+            dolorum harum ullam odit vero optio expedita, fugiat et fugit quasi veniam adipisci, velit qui, porro
+            eligendi!</p>
+        </div>
+        <div class="hiw-banner">
+          <img src="./img/hiw.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End How It works -->
+
+  <!-- Start Trial Section -->
+  <section id="sts">
+    <div class="container">
+      <div class="section-heading">
+        <h1>A Simple way to track your buisness growth</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius laborum quos corrupti praesentium fugiat.</p>
+        <button class="btn btn-secondary btn-lg">Start Trial</button>
+      </div>
+    </div>
+  </section>
+  <!-- End Start Trial -->
+
+  <!-- Footer Section -->
+  <footer id="page-footer">
+    <div class="container">
+      <div class="footer-box">
+        <div class="footer-section footer-logo">
+          <img src="./img/logoinv.svg" alt="">
+        </div>
+        <div class="footer-section links">
+          <h2>Links</h2>
+          <a href="">Home</a>
+          <a href="">Blog</a>
+        </div>
+        <div class="footer-section support">
+          <h2>Support</h2>
+          <a href="">FAQs</a>
+          <a href="">Contact Us</a>
+        </div>
+        <div class="footer-section social">
+          <h2>Social</h2>
+          <div class="social-icons">
+            <a href="" class="sicon facebook">
+              <img src="./img/facebook-f.svg" alt="">
+            </a>
+            <a href="" class="sicon twitter">
+              <img src="./img/twitter.svg" alt="">
+            </a>
+            <a href="" class="sicon linkedin">
+              <img src="./img/linkedin-in.svg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+      <p>Copyright 2010-2020 GreenDot Company. All rights reserved.</p>
+    </div>
+  </footer>
+  <!-- End Footer Section -->
+
+  <script>
+    const menuToggle = document.getElementById('menu-icon');
+    menuToggle.addEventListener('click', function () {
+      const menuOptions = document.getElementsByClassName('nav-menus');
+      menuOptions[0].classList.toggle('show');
+    })
+  </script>
+</body>
+
+</html>
